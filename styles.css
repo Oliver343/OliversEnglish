@@ -1,0 +1,136 @@
+* {
+    font-family: Candara, Arial, Helvetica, sans-serif;
+}
+
+html {
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 105, 119), rgb(0, 122, 86));
+    color: whitesmoke;
+    border: solid rgb(43, 49, 47);
+    height: 2100px;
+    padding: 10px;
+    width: 1000px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin:0px;
+}
+
+.header {
+    background-color: rgba(37, 37, 37, 0.479);
+    color: rgb(169, 245, 188);
+    border: solid rgb(43, 49, 47);
+    padding: 20px;
+    height: 50px;
+    padding-left: 5%;
+    font-size: 38px;
+    font-weight: bold;
+    flex: auto;
+}
+.main {
+    padding: 20px;
+    height: 1755px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+}
+
+.workBox {
+    width: 90%;
+    height: 350px;
+    background-color:rgba(43, 43, 43, 0.849);
+    color: rgb(169, 245, 188);
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid rgb(150, 255, 218) 2px;
+    padding: 30px;
+    min-width: 300px;
+
+}
+
+.videoBox {
+    width: 90%;
+    height: 450px;
+    background-color:rgba(43, 43, 43, 0.849);
+    color: rgb(169, 245, 188);
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid rgb(150, 255, 218) 2px;
+    padding: 30px;
+    min-width: 300px;
+}
+
+.videoBox a {
+    color: white;
+    padding: 100px;
+}
+
+iframe{
+    margin-left: 10%;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    border: none;
+}
+
+table {
+    width: 100%;
+}
+
+.workBox h1 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+td {
+    border: solid rgb(105, 121, 116) 2px;
+    padding: 10px;
+}
+
+.tableMain {
+    width: 50%;
+    font-size: 23px;
+}
+
+select {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(169, 245, 188);
+    background-color: rgb(27, 27, 27);
+    padding: 2px;
+}
+
+input {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(169, 245, 188);
+    background-color: rgb(43, 43, 43);
+    padding: 2px;
+    width: 150px;
+}
+
+.flag {
+    height: 50px;
+    float: right;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olivers English</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+
+            Oliver's English!
+            <img src="flag.png" class="flag">
+        </div>
+        <div class="main">
+            <h1>
+                Using Real English. 
+            </h1>
+            <p>
+                The sentence “<em>I play football.</em>” is correct in English, 
+                however in a conversation it is more likely we would say 
+                “<em>I am going to play football.</em>” 
+                We will look into this in more detail here. 
+            </p>
+            <div class="workBox">
+                <h1>Example</h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I <b>play</b> football.</td>
+
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I am going to <b>play</b> football.</td>
+                        <td><b>Future</b> - <em>Tomorrow / Next Week / Last year</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I am <b>playing</b> football.</td>
+                        <td><b>Present</b> - <em>Right now!</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I <b>played</b> football.</td>
+                        <td><b>Past</b> - <em>Yesterday / Last week / Last year</em></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="workBox">
+                <h1>More Examples</h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I 
+                            <select name="examples" id="examplesDrop" onChange="valueUpdate('A')">
+                                <option value="play">play</option>
+                                <option value="dance">dance</option>
+                                <option value="jump">jump</option>
+                                <option value="push">push</option>
+                                <option value="enjoy">enjoy</option>
+                              </select>
+                          .</td>
+
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I am going to 
+                            <input id="resultFutureA" disabled="true" value="play"></input>.
+                        </td>
+                        <td><b>Future</b> - <em>Tomorrow / Next Week / Last year</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I am 
+                            <input id="resultPresentA" disabled="true" value="playing"></input>.
+                        </td>
+                        <td><b>Present</b> - <em>Right now!</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I 
+                            <input id="resultPastA" disabled="true" value="played"></input>.
+                        </td>
+                        <td><b>Past</b> - <em>Yesterday / Last week / Last year</em></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="workBox">
+                <h1>Irregular Examples</h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I 
+                            <select name="examples" id="irregularDrop" onChange="valueUpdate('B')">
+                                <option value="eat">eat</option>
+                                <option value="go">go</option>
+                                <option value="leave">leave</option>
+                                <option value="fly">fly</option>
+                                <option value="make">make</option>
+                                <option value="take">take</option>
+                              </select>
+                          .</td>
+
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I am going to 
+                            <input id="resultFutureB" disabled="true" value="eat"></input>.
+                        </td>
+                        <td><b>Future</b> - <em>Tomorrow / Next Week / Last year</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I am 
+                            <input id="resultPresentB" disabled="true" value="eating"></input>.
+                        </td>
+                        <td><b>Present</b> - <em>Right now!</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I 
+                            <input id="resultPastB" disabled="true" value="ate"></input>.
+                        </td>
+                        <td><b>Past</b> - <em>Yesterday / Last week / Last year</em></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="videoBox">
+                <h1>Minecraft Video Practice</h1>
+                <iframe allowfullscreen
+                src="https://www.youtube.com/embed/GA0lhHyB84Y">
+                </iframe>
+                <div>
+                <a href="/MinecraftVideoPractice.pdf" download>Download Worksheet PDF</a>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
