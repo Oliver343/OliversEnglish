@@ -10,7 +10,7 @@ body {
     background-image: linear-gradient(to right, rgb(0, 105, 119), rgb(0, 122, 86));
     color: whitesmoke;
     border: solid rgb(43, 49, 47);
-    height: 2100px;
+    height: 2610px;
     padding: 10px;
     width: 1000px;
     min-width: 400px;
@@ -35,7 +35,7 @@ h1 {
 }
 .main {
     padding: 20px;
-    height: 1755px;
+    height: 2055px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -56,6 +56,25 @@ h1 {
     padding: 30px;
     min-width: 300px;
 
+}
+
+.workBox2 {
+    width: 90%;
+    height: 400px;
+    background-color:rgba(43, 43, 43, 0.849);
+    color: rgb(169, 245, 188);
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid rgb(150, 255, 218) 2px;
+    padding: 30px;
+    min-width: 300px;
+}
+
+.workBox2 input {
+background-color: rgb(63, 63, 63);
 }
 
 .videoBox {
@@ -127,6 +146,24 @@ input {
 .flag {
     height: 50px;
     float: right;
+}
+
+button {
+    background-color: rgb(43, 43, 43);
+    color: rgb(169, 245, 188);
+    font-size: larger;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+
+[id*= 'Tick'] {
+    width: 30px;
+    background-color: rgba(43, 43, 43, 0);
+    color: rgb(255, 77, 77);
+    border: none;
 }
 
 

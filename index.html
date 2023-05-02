@@ -138,6 +138,50 @@
                 </div>
             </div>
 
+            <div class="workBox2">
+                <h1>Test Yourself</h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I 
+                            <select name="examples" id="testDrop" onChange="valueUpdate('C')">
+                                <option value="dance">dance</option>
+                                <option value="jump">jump</option>
+                                <option value="enjoy">enjoy</option>
+                                <option value="eat">eat</option>
+                                <option value="go">go</option>
+                                <option value="leave">leave</option>
+                                <option value="fly">fly</option>
+                                <option value="make">make</option>
+                                <option value="take">take</option>
+                              </select>
+                          .</td>
+    
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="tableMain">I am going to 
+                            <input id="resultFutureC"  value="" placeholder="? ? ? ?"></input>.<input id="futureTick" value="X" hidden="true" disabled="true"></input>
+                        </td>
+                        <td><b>Future</b> - <em>Tomorrow / Next Week / Next year</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I am 
+                            <input id="resultPresentC" value="" placeholder="? ? ? ?"></input>.<input id="presentTick" value="X" hidden="true" disabled="true"></input>
+                        </td>
+                        <td><b>Present</b> - <em>Right now!</em></td>
+                    </tr>
+                    <tr>
+                        <td class="tableMain">I 
+                            <input id="resultPastC" value="" placeholder="? ? ? ?"></input>.<input id="pastTick" value="X" hidden="true" disabled="true"></input>
+                        </td>
+                        <td><b>Past</b> - <em>Yesterday / Last week / Last year</em></td>
+                    </tr>
+                </table>
+                <button onclick="checkAnswers()">Check!</button>
+            </div>
         </div>
 
     </body>
