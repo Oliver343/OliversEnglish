@@ -5,7 +5,7 @@
 let keyMain = {
     play: {future: "play", present: "playing", past: "played"},
     dance: {future: "dance", present: "dancing", past: "danced"},
-    jump: {future: "jump", present: "juping", past: "jumped"},
+    jump: {future: "jump", present: "jumping", past: "jumped"},
     push: {future: "push", present: "pushing", past: "pushed"},
     enjoy: {future: "enjoy", present: "enjoying", past: "enjoyed"},
 
