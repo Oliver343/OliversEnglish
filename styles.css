@@ -75,7 +75,8 @@ h1 {
 
 .videoBox a {
     color: white;
-    padding: 100px;
+    padding: 10px;
+    margin-left: 100px;
 }
 
 iframe{
@@ -127,9 +128,6 @@ input {
     height: 50px;
     float: right;
 }
-
-
-
 
 
 
