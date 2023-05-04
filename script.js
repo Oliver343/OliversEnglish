@@ -30,6 +30,9 @@ function checkAnswers() {
     let answerFuture = document.getElementById("resultFutureC").value.toLowerCase()
     let answerPresent = document.getElementById("resultPresentC").value.toLowerCase()
     let answerPast = document.getElementById("resultPastC").value.toLowerCase()
+    answerFuture = answerFuture.trim()
+    answerPresent = answerPresent.trim()
+    answerPast = answerPast.trim()
     
     let futureResult = document.getElementById("futureTick");
     let presentResult = document.getElementById("presentTick")
