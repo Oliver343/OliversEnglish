@@ -13,11 +13,11 @@ let vocabMain = {
     10: ['Desk', 'Escritorio', false],
     11: ['Cave', 'Cueva', false],
     12: ['Hill', 'Colina', false],
-    13: ['Dessert', 'Postrey', false],
+    13: ['Dessert', 'Postre', false],
     14: ['Recipe', 'Receta', false],
     15: ['Brick', 'Ladrillo', false],
     16: ['Dream', 'Sueño', false],
-    17: ['Snore', 'Ronquido', false],
+    17: ['Glass', 'Cristal', false],
     18: ['Rainbow', 'Arcoíris', false],
     18: ['Ill', 'Enfermo', false],
     19: ['Box', 'Caja', false],
@@ -34,10 +34,10 @@ let vocabMain = {
     30: ['Library', 'Biblioteca', false],
     31: ['Gloves', 'Guantes', false],
     32: ['Sentence', 'Oración', false],
-    33: ['Pillows', 'Almohadas', false],
+    33: ['Pillow', 'Almohada', false],
     34: ['Comb', 'Peine', false],
     35: ['Cage', 'Jaula', false],
-    36: ['Candles', 'Velas', false],
+    36: ['Candle', 'Vela', false],
     37: ['Chalk', 'Tiza', false],
     38: ['Stick', 'Palo', false],
     39: ['Lock', 'Cerradura', false],
@@ -49,9 +49,13 @@ let vocabMain = {
     45: ['Leaves', 'Hojas', false],
     46: ['Forest', 'Bosque', false],
     47: ['Fox', 'Zorro', false],
-    48: ['Nuts', 'Nuez', false],
+    48: ['Nut', 'Nuez', false],
     49: ['Honey', 'Miel', false],
     50: ['Snake', 'Serpiente', false],
+}
+
+let vocabVerb = {
+    01: ['Snore', 'Ronquido', false],
 }
 
 let correctAnswers = {
